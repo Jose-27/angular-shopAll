@@ -9,8 +9,8 @@
 			templateUrl: "components/classifieds/card/classified-card.tpl.html",
 			scope: {
 				classifieds: "=",
-				classifiedsFilter: "=",
-				category: "="
+				classifiedsFilter: "=searchFilter",
+          		category: "=categoryFilter"
 			},
 			controller: classifiedCardController,
 			controllerAs: 'self'
